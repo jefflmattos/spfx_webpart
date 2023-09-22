@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "birthday-card-client-side-solution",
+    "id": "c94c73c3-9dd8-4e43-9d1a-7a9d5ee0fdf8",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.14.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "birthday-card description"
+      },
+      "longDescription": {
+        "default": "birthday-card description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "birthday-card Feature",
+        "description": "The feature that activates elements of the birthday-card solution.",
+        "id": "7b92f688-ea62-4777-9c0a-5977bc8f5671",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/birthday-card.sppkg"
+  }
+}

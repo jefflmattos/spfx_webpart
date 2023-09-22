@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.14.0",
+    "libraryName": "birthday-card",
+    "libraryId": "c94c73c3-9dd8-4e43-9d1a-7a9d5ee0fdf8",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "birthday-card",
+    "solutionShortDescription": "birthday-card description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "birthday-card-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/birthdayCard/BirthdayCardWebPart.js",
+          "manifest": "./src/webparts/birthdayCard/BirthdayCardWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "BirthdayCardWebPartStrings": "lib/webparts/birthdayCard/loc/{locale}.js"
+  }
+}
